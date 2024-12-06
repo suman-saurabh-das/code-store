@@ -1,10 +1,10 @@
 // [01] Fibonacci sequence
 
 /*
-  Problem - Given a number n, find the first n elements of the fibonacci sequence.
+  ● Problem - Given a number n, find the first n elements of the fibonacci sequence.
   
-  Fibonacci sequence is a sequence in which each number is the sum of the preceding ones.
-  The first two numbers in the sequence are 0 and 1.
+  ● Fibonacci is a sequence in which each number is the sum of the preceding ones.
+  ● The first two numbers in the sequence are 0 and 1.
     fibonacci(2) = [0, 1]
     fibonacci(3) = [0, 1, 1]
     fibonacci(7) = [0, 1, 1, 2, 3, 5, 8]
@@ -30,9 +30,9 @@ console.log();
 // [02] Factorial of a number
 
 /*
-  Problem - Given an integer n, find the factorial of that integer.
+  ● Problem - Given an integer n, find the factorial of that integer.
   
-  Factorial of a non-negative integer n, denoted as n! is the product of all positive integers less than or equal to n.
+  ● Factorial of a non-negative integer n, denoted as n! is the product of all positive integers less than or equal to n.
     factorial(0) = 1
     factorial(4) = 4*3*2*1 = 24
     factorial(5) = 5*4*3*2*1 = 120
@@ -55,9 +55,9 @@ console.log();
 // [03] Prime number
 
 /*
-  Problem - Given a natural number n, determine if it is prime or not.
-
-  A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
+  ● Problem - Given a natural number n, determine if it is prime or not.
+  
+  ● A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
     isPrime(5) = true
     isPrime(4) = false
 */
@@ -95,9 +95,9 @@ console.log();
 // [04] Power of 2
 
 /*
-  Problem - Given a positive integer n, determine if the number is a power of 2 or not.
-
-  An integer is a power of two if there exists an integer n such that x === 2ⁿ
+  ● Problem - Given a positive integer n, determine if the number is a power of 2 or not.
+  
+  ● An integer is a power of two if there exists an integer n such that x === 2ⁿ
     isPowerOfTwo(1) = true
     isPowerOfTwo(2) = true
     isPowerOfTwo(5) = false
@@ -156,10 +156,10 @@ console.log();
 // [06] Recursive fibonacci sequence
 
 /*
-  Problem - Given a number n, find the nth element of the fibonacci sequence.
+  ● Problem - Given a number n, find the nth element of the fibonacci sequence.
 
-  Fibonacci sequence is a sequence in which each number is the sum of the preceding ones.
-  The first two numbers in the sequence are 0 and 1.
+  ● Fibonacci is a sequence in which each number is the sum of the preceding ones.
+  ● The first two numbers in the sequence are 0 and 1.
     recursiveFibonacci(0) = 0
     recursiveFibonacci(1) = 1
     recursiveFibonacci(6) = 8
@@ -167,7 +167,7 @@ console.log();
 
 // Time complexity : O(2ⁿ)
 const recursiveFibonacci = (n) => {
-  // Base case
+  // Base condition.
   if (n === 0 || n === 1) {
     return n;
   }
@@ -181,9 +181,9 @@ console.log();
 // [07] Recursive factorial of a number
 
 /*
-  Problem - Given an integer n, find the factorial of that integer.
-  
-  Factorial of a non-negative integer n, denoted as n! is the product of all positive integers less than or equal to n.
+  ● Problem - Given an integer n, find the factorial of that integer.
+
+  ● Factorial of a non-negative integer n, denoted as n! is the product of all positive integers less than or equal to n.
     factorial(0) = 1
     factorial(4) = 4*3*2*1 = 24
     factorial(5) = 5*4*3*2*1 = 120
@@ -191,7 +191,7 @@ console.log();
 
 // Time complexity : O(n)
 const recursiveFactorial = (n) => {
-  // Base case
+  // Base condition.
   if (n === 0 || n === 1) {
     return 1;
   }
